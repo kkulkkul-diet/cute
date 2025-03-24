@@ -51,7 +51,7 @@ export default function Week1(){
           <li>🥬 샐러드채소: 씻고 키친타월에 싸서 보관</li>
         </ul>
       </details>
-    
+    <div>
     <h1 style={{ fontSize: '2rem', color: '#ec407a' }}>10만원 다이어트 챌린지(Vietnam) 버전🧁</h1>
       <p style={{ marginTop: '0.5rem' }}>한 달 식비 200만동 예산으로 구성한 4주치 저녁 다이어트 식단표</p>
       <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -61,6 +61,7 @@ export default function Week1(){
         <Link href="/week4"><button>🍽️ Week 4</button></Link>
     
       </div>
+     </section>
     </main>
   );
 }
