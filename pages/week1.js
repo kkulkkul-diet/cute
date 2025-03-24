@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Week1(){
   return (
     <main style={{ padding: '2rem', fontFamily: 'sans-serif', textAlign: 'center' }}>      
