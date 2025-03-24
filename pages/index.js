@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>꿀꿀 다이어트 식단 앱 🧁</title>
+        <title>베트남 다이어트 챌린지 🧁</title>
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/icon.png" />
       </Head>
