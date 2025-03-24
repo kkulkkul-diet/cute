@@ -1,8 +1,9 @@
+import Link from 'next/link';
 
-export default function DietMealWebView() {
-   return (
+export default function Home() {
+  return (
     <main style={{ padding: '2rem', fontFamily: 'sans-serif', textAlign: 'center' }}>
-      <h1 style={{ fontSize: '2rem', color: '#ec407a' }}>10만원 다이어트 챌린지(Vietnam) 버전🧁</h1>
+      <h1 style={{ fontSize: '2rem', color: '#ec407a' }}> 베트남 다이어트 챌린지 🧁</h1>
       <p style={{ marginTop: '0.5rem' }}>한 달 식비 200만동 예산으로 구성한 4주치 저녁 다이어트 식단표</p>
       <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <Link href="/week1"><button>🍽️ Week 1</button></Link>
@@ -13,4 +14,3 @@ export default function DietMealWebView() {
     </main>
   );
 }
-
